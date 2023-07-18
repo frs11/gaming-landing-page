@@ -100,13 +100,131 @@ nav
 /* Responsive layout for mobile devices  */
  @media screen and (max-width: 576px) 
  {
+    .description-text
+    {
+        font-size: 0.8rem;
+    }
+
+    nav
+    {
+        margin: 20px auto;
+        flex-direction: column;
+        max-width: 60%;
+        box-shadow: none;
+        justify-items: center;
+    }
+    .logo-section-container
+    {
+        display: flex;
+        align-items: center;
+    }
+    .logo-container
+    {
+        max-width: 70px;
+        max-height: 60px;
+        min-width: 40px;
+    }
+    .logo-text
+    {
+        color: #0B0223;
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    .navbar-rightside-content-container 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-a-tag-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-right: auto;
+    }
+    .nav-a-tag-container > a , div 
+    {
+        margin-bottom: 20px;
+    }
+    .follow-us-div-container
+    {
+        display: inline-flex;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 8px;
+        padding: 5px 8px;
+        background: #0b02231a;
+    }
+
 
  }
 
 
 
 /* Responsive layout for Tablet devices  */
-@media screen and (min-width: 577px) and (max-width: 922px)
+@media screen and (min-width: 577px) and (max-width: 1050px)
 {
+    /* Nav bar tablet styles */
+    .description-text
+    {
+        font-size: 1rem;
+    }
+
+    nav
+    {
+        margin: 25px auto;
+        flex-direction: column;
+        max-width: 80%;
+        box-shadow: none;
+        justify-items: center;
+    }
+    .logo-section-container
+    {
+        display: flex;
+        align-items: center;
+    }
+    .logo-container
+    {
+        max-width: 80px;
+        max-height: 60px;
+        min-width: 40px;
+    }
+    .logo-text
+    {
+        color: #0B0223;
+        font-size: 2.4rem;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    .navbar-rightside-content-container 
+    {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+    }
+    .nav-a-tag-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .follow-us-div-container
+    {
+        display: inline-flex;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 8px;
+        padding: 5px 8px;
+        background: #0b02231a;
+    }
+    .follow-us-icons
+    {
+        padding-left: 6px;
+    }
 
 }
