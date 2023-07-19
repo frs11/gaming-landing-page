@@ -414,4 +414,83 @@ nav
         padding-left: 6px;
     }
 
+    /* banner tablet responsive design */
+    
+    .banner-section
+    {
+        width: 90%;
+        /* margin-top: 80px; */
+        display: grid;
+        /* max-width: 100%; */
+        /* width: 100vw; */
+        grid-template-columns: repeat(100%, 1fr);
+        justify-content: center;
+        margin: 20px auto;
+        padding-left:0;
+    }
+    .banner-content-container
+    {
+        max-width: 500px;
+        background-image: none;
+        /* background-color: #3C354F;
+        background-repeat: no-repeat;
+        background-size: contain; */
+        margin-top: 200px;
+        margin-left: 10px;
+        /* padding-left: 20px; */
+    }
+    
+    .banner-left-side
+    {
+        width: 100vw;
+        background-image: url("./images/Group\ 14.png");
+        /* background-color: #3C354F; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* margin-left: 2%; */
+        /* border: 1px solid #3e00e9; */
+        padding: 8% 10%;
+        margin: 0 30px;
+        text-align: left;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .banner-left-side li
+    {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .banner-content-heading
+    {
+        font-size: 1rem;
+    
+    }
+
+    .text-goat
+    {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .btn-banner
+    {
+        display: inline-flex;
+        padding: 8px 15px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        margin-right: 10px;
+    }
+    .btn-container
+    {
+        display: flex;
+    }
+    .banner-right-side
+    {
+        width: 100%;
+        display: flex;
+        justify-items: right;
+        max-width: 500px;
+        margin: 20px auto;
+    }
 }
