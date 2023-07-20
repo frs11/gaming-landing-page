@@ -2,147 +2,192 @@
 /* Responsive layout for Tablet devices  */
 @media screen and (min-width: 577px) and (max-width: 1050px)
 {
+    /* Shared Common Styles */
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }    
+    
+    /* header section styles */
+
     /* Nav bar tablet styles */
+
     .description-text
     {
-        font-size: 1rem;
+       font-size: 1rem;
     }
-
+     
     nav
-    {
-        margin: 25px auto;
-        flex-direction: column;
-        max-width: 80%;
-        box-shadow: none;
-        justify-items: center;
-    }
-    .logo-section-container
-    {
-        display: flex;
-        align-items: center;
-    }
-    .logo-container
-    {
-        max-width: 80px;
-        max-height: 60px;
-        min-width: 40px;
-    }
-    .logo-text
-    {
-        color: #0B0223;
-        font-size: 2.4rem;
-        font-weight: 700;
-        padding-left: 10px;
-    }
-    .navbar-rightside-content-container 
-    {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        justify-content: space-around;
-    }
-    .nav-a-tag-container
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    .follow-us-div-container
-    {
-        display: inline-flex;
-        margin: 0 auto;
-        align-items: center;
-        border-radius: 8px;
-        padding: 5px 8px;
-        background: #0b02231a;
-    }
-    .follow-us-icons
-    {    
-        padding-left: 6px;
-    }
-
+        {
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            flex-direction: column;
+            width: 100%;
+            justify-items: center;
+        }
+        .logo-section-container
+        {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container
+        {
+         
+         height: 60px;
+         width: 60px;
+        }
+        .logo-text
+        {
+            color: #0B0223;
+            font-size: 2rem;
+            font-weight: 700;
+            padding-left: 10px;
+        }
+        .navbar-rightside-content-container 
+        {
+            align-items: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .nav-a-tag-container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+        }
+    
+        .follow-us-div-container
+        {
+            display: inline-flex;
+            margin: 0 auto;
+            align-items: center;
+            border-radius: 8px;
+            padding: 5px 8px;
+            background: #0b02231a;
+        }
+     
+ 
     /* banner tablet responsive design */
     
+    
     .banner-section
-    {
-        width: 90%;
-        display: grid;
-        grid-template-columns: repeat(100%, 1fr);
-        justify-content: center;
-        margin: 20px auto;
-        padding-left:0;
-    }
-    .banner-content-container
-    {
-        max-width: 500px;
-        background-image: none;
-        margin-top: 200px;
-        margin-left: 10px;
-
-    }
-    
-    .banner-left-side
-    {
-        width: 100vw;
-        background-image: url("./images/Group\ 14.png");
-        /* background-color: #3C354F; */
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-blend-mode: darken;
-        /* margin-left: 2%; */
-        /* border: 1px solid #3e00e9; */
-        box-shadow: 0px 10px 15px #5757576b;
-        padding: 8% 10%;
-        margin: 0 30px;
-        text-align: left;
-        /* align-items: center; */
-        /* justify-content: center; */
-    }
-    .banner-left-side li
-    {
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .banner-content-heading
-    {
-        font-size: 1.2rem;
-    
-    }
-
-    .text-goat
-    {
-        font-size: 2.3rem;
-    }
-    .btn-banner
-    {
-        display: inline-flex;
-        padding: 8px 15px;
-        align-items: flex-start;
-        gap: 10px;
-        border-radius: 20px;
-        font-size: 0.8rem;
-        margin-right: 10px;
-    }
-    .btn-container
-    {
-        display: flex;
-    }
-    .banner-right-side
-    {
+   {
         width: 100%;
-        display: flex;
-        justify-items: right;
-        max-width: 500px;
-        margin: 20px auto;
+        margin: 0 auto;
+        margin-top: 200px;
+        flex-direction: column-reverse;
+        justify-content: center;
+   }
+
+    .banner-content-container
+   {
+       width: 90%;
+       padding-left: 50px;
+       margin: 0 auto;
+       background-image: url("./images/Group\ 14.png");
+       background-repeat: no-repeat;
+       background-size: contain;
+   }
+   .left-banner-bg
+    {
+        background-image: none;
+    }
+ 
+   .banner-left-side
+   {
+       max-width: 400px;
+       margin: 0 auto;
+       margin-top: 70px;
+       text-align: left;
+   }
+
+   .banner-content-heading
+   {
+       font-size: 1.9rem;
+      
+   }
+   
+   .text-goat
+   {
+       font-size: 2.6rem;
+   }
+   .btn-banner
+    {
+        padding: 10px 25px;
+        gap: 12px;
+        font-size: 01rem;
+        margin-right: 12px;
     }
 
-    /* Online game responsive layout */
+   .banner-right-side
+   {
+       display: flex;
+       justify-items: right;
+       width: 93%;
+       margin: 0 auto;
+       margin-bottom: 50px;
+   }
+   .banner-right-side > img
+   {
+       width: 100%;
+       object-fit: cover;
+   }
 
-}
 
-.visible
-{
-    display: none;
+    /* online games funny video section */
+    .online-game-funny-video-section
+    {
+        text-align: center;
+    }
+    .online-game-text
+    {
+        font-size: 2.6rem;
+    }
+    .grid-box-layout 
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+      /* Play Instant games section */
+   .play-instant-game-section
+   {
+       display: flex;
+       margin-top: 0px;
+       flex-direction: row-reverse;
+       
+   }
+   .play-instant-text
+   {
+       width: 200px;
+       margin-left: 120px;
+       margin-top: 100px;
+       margin-right: 100px;
+   }
+   .play-instant-text h3
+   {
+       font-size: 2rem;
+   }
+   .play-instant-text p
+   {
+    font-size: 1rem;
+   }
+   .play-instant-image-container
+   {
+       width: 50%;
+       margin-top: 100px;
+   }
+   .cow-boy-image {
+       width: 70%;
+   }
+   .small-image
+   {
+       width: 40%;
+       margin-top: -100px;
+       margin-left: 100px;
+   }
+
 }

@@ -39,7 +39,6 @@
    }
    .navbar-rightside-content-container 
    {
-       flex-direction: column;
        align-items: center;
    }
    .nav-a-tag-container
@@ -127,6 +126,7 @@
        object-fit: cover;
    }
 
+
    /* online games funny video section */
     .online-game-funny-video-section
     {
@@ -140,6 +140,7 @@
     {
         grid-template-columns: repeat(1, 1fr);
     }
+
 
    /* Play Instant games section */
    .play-instant-game-section
@@ -165,15 +166,16 @@
         width: 50%;
     }
     .cow-boy-image {
-        width: 70%;
-        /* margin-left: 120px; */
+        width: 80%;
     }
     .small-image
     {
-        width: 40%;
-        margin-top: -100px;
-        margin-left: 100px;
+        width: 50%;
+        margin-top: -85px;
+        margin-left: 70px;
     }
+
+
        /* Online game responsive layout */
    
        .games-content-container
