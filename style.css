@@ -325,6 +325,7 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .footer-content-container
 {
@@ -349,7 +350,6 @@ footer
 .footer-p-tag-container
 {
     width: 100%;
-    display: flex;
     display: inline-flex;
     padding: 10px;
     align-items: center;
@@ -368,12 +368,12 @@ footer
 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .footer-icon-container i
 {
     color: #FFF;
-    padding-left: 15px;
+    padding-left: 80px;
 }
 .terms-condition
 {

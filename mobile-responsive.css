@@ -272,8 +272,9 @@
    }
    .footer-icon-container i
    {
-       color: #FFF;
-       width: calc(100% - 20%);
+        padding-left: 20px;
+        color: #FFF;
+        width: calc(100% - 20%);
    }
    .terms-condition
    {
