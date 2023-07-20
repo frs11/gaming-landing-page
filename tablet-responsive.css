@@ -1,0 +1,148 @@
+
+/* Responsive layout for Tablet devices  */
+@media screen and (min-width: 577px) and (max-width: 1050px)
+{
+    /* Nav bar tablet styles */
+    .description-text
+    {
+        font-size: 1rem;
+    }
+
+    nav
+    {
+        margin: 25px auto;
+        flex-direction: column;
+        max-width: 80%;
+        box-shadow: none;
+        justify-items: center;
+    }
+    .logo-section-container
+    {
+        display: flex;
+        align-items: center;
+    }
+    .logo-container
+    {
+        max-width: 80px;
+        max-height: 60px;
+        min-width: 40px;
+    }
+    .logo-text
+    {
+        color: #0B0223;
+        font-size: 2.4rem;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    .navbar-rightside-content-container 
+    {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+    }
+    .nav-a-tag-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .follow-us-div-container
+    {
+        display: inline-flex;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 8px;
+        padding: 5px 8px;
+        background: #0b02231a;
+    }
+    .follow-us-icons
+    {    
+        padding-left: 6px;
+    }
+
+    /* banner tablet responsive design */
+    
+    .banner-section
+    {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(100%, 1fr);
+        justify-content: center;
+        margin: 20px auto;
+        padding-left:0;
+    }
+    .banner-content-container
+    {
+        max-width: 500px;
+        background-image: none;
+        margin-top: 200px;
+        margin-left: 10px;
+
+    }
+    
+    .banner-left-side
+    {
+        width: 100vw;
+        background-image: url("./images/Group\ 14.png");
+        /* background-color: #3C354F; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-blend-mode: darken;
+        /* margin-left: 2%; */
+        /* border: 1px solid #3e00e9; */
+        box-shadow: 0px 10px 15px #5757576b;
+        padding: 8% 10%;
+        margin: 0 30px;
+        text-align: left;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .banner-left-side li
+    {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .banner-content-heading
+    {
+        font-size: 1.2rem;
+    
+    }
+
+    .text-goat
+    {
+        font-size: 2.3rem;
+    }
+    .btn-banner
+    {
+        display: inline-flex;
+        padding: 8px 15px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        margin-right: 10px;
+    }
+    .btn-container
+    {
+        display: flex;
+    }
+    .banner-right-side
+    {
+        width: 100%;
+        display: flex;
+        justify-items: right;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    /* Online game responsive layout */
+
+}
+
+.visible
+{
+    display: none;
+}
