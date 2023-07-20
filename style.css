@@ -175,6 +175,8 @@ nav
 }
 
 /* main section starts here */
+
+/* Instant Game section */
 .play-instant-game-section
 {
     display: flex;
@@ -195,7 +197,7 @@ nav
 }
 .play-instant-p
 {
-    color: #534C64;
+color: #534C64;
 font-size: 12px;
 font-weight: 400;
 }
@@ -212,7 +214,7 @@ font-weight: 400;
     width: 40%;
     margin-top: -100px;
 }
-/* online games video section */
+/* online games funny video section */
 .online-game-text
 {
     color: #0B0223;
@@ -346,11 +348,8 @@ footer
 }
 .footer-p-tag-container
 {
-    /* display: flex; */
     width: 100%;
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
     display: inline-flex;
     padding: 10px;
     align-items: center;
@@ -393,12 +392,3 @@ footer
 {
     margin-bottom: 20px;
 }
-
-
-
-
-.visible
-{
-    display: none;
-}
-
